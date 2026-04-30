@@ -1,10 +1,10 @@
 -- ============================================================
--- DDL: tr_customer_satisfaction
+-- DDL: tr_customer_satisfaction_waschen
 -- PT Waschen Alora Indonesia
 -- Dibuat: 2026-04-28
 -- ============================================================
 
-CREATE TABLE IF NOT EXISTS `tr_customer_satisfaction` (
+CREATE TABLE IF NOT EXISTS `tr_customer_satisfaction_waschen` (
   `id`            BIGINT UNSIGNED  NOT NULL AUTO_INCREMENT       COMMENT 'Primary key',
   `no_nota`       VARCHAR(100)     NOT NULL                      COMMENT 'Nomor nota transaksi pelanggan',
   `csat_score`    TINYINT UNSIGNED NOT NULL                      COMMENT 'Skor kepuasan 1–5 (1=Sangat Tidak Puas … 5=Sangat Puas)',

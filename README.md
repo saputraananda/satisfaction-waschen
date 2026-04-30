@@ -135,7 +135,7 @@ Navigasi **kembali** tersedia di setiap step tanpa kehilangan progress.
 
 ## Skema Database
 
-Tabel utama: `tr_customer_satisfaction`
+Tabel utama: `tr_customer_satisfaction_waschen`
 
 | Kolom           | Tipe          | Keterangan                         |
 |-----------------|---------------|------------------------------------|

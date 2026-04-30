@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $conn = getConnection();
     $stmt = $conn->prepare(
-        "INSERT INTO tr_customer_satisfaction
+        "INSERT INTO tr_customer_satisfaction_waschen
             (no_nota, csat_score, csat_label, nps_score, nps_category, feedback_tags, feedback_text, ip_address, user_agent)
          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
     );

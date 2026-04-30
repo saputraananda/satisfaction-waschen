@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   } else {
     $no_nota_safe = htmlspecialchars($no_nota, ENT_QUOTES, 'UTF-8');
     $conn = getConnection();
-    $stmt = $conn->prepare("SELECT id FROM tr_customer_satisfaction WHERE no_nota = ? LIMIT 1");
+    $stmt = $conn->prepare("SELECT id FROM tr_customer_satisfaction_waschen WHERE no_nota = ? LIMIT 1");
     $stmt->bind_param('s', $no_nota);
     $stmt->execute();
     $stmt->store_result();
