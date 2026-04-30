@@ -169,7 +169,7 @@ $preselected = isset($_SESSION['nps_score']) ? (int) $_SESSION['nps_score'] : -1
         Rekomendasi
       </div>
       <h2 class="text-xl font-bold text-gray-800 leading-snug">
-        Rekomendasikan <span style="color:#5B005F;">Waschen</span> ke<br>
+        Apakah Anda Akan <span style="color:#5B005F;">Merekomendasikan Kami</span> ke
         Teman dan Keluarga?
       </h2>
       <p class="text-gray-400 text-xs mt-2">0 = Tidak Mungkin &nbsp;·&nbsp; 10 = Pasti Rekomendasikan</p>
